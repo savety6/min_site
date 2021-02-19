@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+    <title>{% block title %}base{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Гривни</a></li>
+            <li><a href="#">Обеци</a></li>
+            <li><a href="#">Висулки</a></li>
+            <li><a href="#">Гердани</a></li>
+            <li><a href="#">Комплкти</a></li>
+            <li><a href="#">Фигурку</a></li>
+            <li><a href="#">Минерали</a></li>
+            <li><a href="#">Кристали</a></li>
+        </ul>
+    </nav>
+    <div class="logo">
+        <h3>Logo</h3>
+        <div class="main-nav">
+            <div>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Info</a></p>
+                <p><a href="#">Contact Us</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
